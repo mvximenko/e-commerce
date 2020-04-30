@@ -3,12 +3,14 @@ import { withRouter } from 'react-router-dom';
 import './MenuItemStyles.scss';
 
 const MenuItem = ({ title, imageUrl, size, history, linkUrl, match }) => (
-  console.log(match),
-  <div className={`${size} MenuItem`} onClick={() => history.push(`${match.url}${linkUrl}`)}>
+  <div
+    className={`${size} MenuItem`}
+    onClick={() => history.push(`${match.url}${linkUrl}`)}
+  >
     <div
       className='backgroundImage'
       style={{
-        backgroundImage: `url(${imageUrl})`
+        backgroundImage: `url(${imageUrl})`,
       }}
     />
     <div className='content'>
