@@ -1,5 +1,10 @@
 .SignIn {
-  width: 30vw;
+  width: 380px;
   display: flex;
   flex-direction: column;
+
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+  }
 }
