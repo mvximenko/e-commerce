@@ -8,7 +8,6 @@ import {
 import './CheckoutItemStyles.scss';
 
 const CheckoutItem = ({ cartItem, clearItem, addItem, removeItem }) => {
-  console.log('TEEEEEEEEEEEEST', cartItem);
   const { name, imageUrl, price, quantity } = cartItem;
   return (
     <div className='CheckoutItem'>
