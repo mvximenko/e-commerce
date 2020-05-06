@@ -6,7 +6,7 @@ export const CollectionPageContainer = styled.div`
 `;
 
 export const CollectionTitle = styled.h2`
-  font-size: <3></3>8px;
+  font-size: 38px;
   margin: 0 auto 30px;
   text-transform: uppercase;
 `;

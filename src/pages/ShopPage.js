@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import { Route } from 'react-router-dom';
 import { connect } from 'react-redux';
 import { fetchCollectionsStart } from '../redux/shop/shopActions';
-import CollectionsOverviewContainer from '../components/CollectionsOverview';
+import CollectionsOverviewContainer from '../components/CollectionsOverviewContainer';
 import CollectionPageContainer from './CollectionPageContainer';
 
 const ShopPage = ({ fetchCollectionsStart, match }) => {
