@@ -19,8 +19,6 @@ ReactDOM.render(
     </Provider>
   </React.StrictMode>,
   document.getElementById('root')
-); 
-
-serviceWorker.register();
+);
 
 serviceWorker.register();
